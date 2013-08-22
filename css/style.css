@@ -1,0 +1,59 @@
+
+@import url("fonts.css");
+
+body, p, a, img, ul, li, form, input, select, h1, h2, h3, h4, h5, h6 { margin:0px; padding:0px; border:0px; outline:0px; text-decoration:none; font-weight:normal; list-style:none;}
+
+body { font-family:"moireregular"; font-size:11px; color:#002d44; background:url(../images/blue_bg.png) 0 0 repeat;}
+
+p {}
+a { color:#002d44;}
+a:hover { color:#000;}
+img {}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+input[type="text"] { background:#93b8cc; line-height:26px; height:26px; width:190px; padding:8px 10px 6px; font-size:16px; color:#002d44; text-shadow:1px 1px 0 #a4c4d5; border-radius:5px;}
+input[type="password"] { background:#93b8cc; line-height:26px; height:26px; width:190px; padding:8px 10px 6px; font-size:16px; color:#002d44; text-shadow:1px 1px 0 #a4c4d5; margin-top:11px; border-radius:5px;}
+input[type="submit"] { background:url(../images/button.png) 0 0 no-repeat; display:block; padding-top:1px; height:41px; width:145px; font-size:17px; color:#002d44; text-shadow:1px 1px 0 #4581a4; font-family:"moirebold"; text-align:center; margin-top:19px; cursor:pointer;}
+
+.fl { float:left;}
+.fr { float:right;}
+.clearfix:after { content:"."; display:block; clear:both; visibility:hidden; line-height:0;	height:0;}
+.clearfix {	display:inline-block;}
+html[xmlns] .clearfix {	display:block;}
+* html .clearfix { height:1%;}
+.clear { clear:both;}
+
+#wrapper { width:100%;}
+
+form .errorSummary { border: 2px solid #C00; padding: 7px 7px 12px 7px; margin: 0 0 20px 0; background: #FEE; font-size: 0.9em; }
+form .errorMessage { color: #ff9999; font-size: 0.9em; margin-left: 10px; }
+form .errorSummary p { margin: 0; padding: 5px; }
+form .errorSummary ul { margin: 0; padding: 0 0 0 20px; }
+
+.fixdiv { width:980px; margin:0 auto;}
+
+.header { background:url(../images/header_bg.png) 0 0 repeat-x; line-height:49px;}
+.header .fl { margin-top:16px;}
+.header .fr li { font-size:15px; display:block; float:left; padding:0 19px;}
+.header .fr li+li { background:url(../images/divider.png) 0 center no-repeat;}
+.header .fr li.none { padding-right:0px;}
+
+.middle { background:url(../images/shadow1.png) 0 0 repeat-x;}
+.middle .signin { position:relative; margin-top:150px; width:400px;}
+.middle .signin .slogan { position:absolute; top:-118px; left:0;}
+.middle .signin .blog { margin-top:22px;}
+.middle .signin .blog .fl { width:160px; font-size:18px; color:#fff;}
+.middle .signin .blog .fr { float:left; width:210px;}
+.middle .signin .or { margin-top:22px;}
+.middle .screen { margin-top:128px; text-align:right;}
+.middle .screen .appstore { margin:15px 0 30px;}
+
+.footer { line-height:40px; padding:8px 0 2px; background:url(../images/shadow2.png) 0 0 repeat-x #fff;}
+.footer .fl { font-size:13px;}
+.footer .fr { font-size:11px;}

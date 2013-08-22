@@ -1,0 +1,57 @@
+2013/07/23 11:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/yii1113/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rssfeed/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/rssfeed/index.php/admin
+---
+2013/07/23 11:17:06 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/yii1113/framework/YiiBase.php:316
+Stack trace:
+#0 /var/www/yii1113/framework/YiiBase.php(196): YiiBase::import('admin.AdminModu...', true)
+#1 /var/www/yii1113/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 /var/www/yii1113/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#3 /var/www/yii1113/framework/web/CWebApplication.php(276): CWebApplication->createController('admin')
+#4 /var/www/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#5 /var/www/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /var/www/rssfeed/index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/rssfeed/index.php/admin
+---
+2013/07/23 11:17:59 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/yii1113/framework/YiiBase.php:316
+Stack trace:
+#0 /var/www/yii1113/framework/YiiBase.php(196): YiiBase::import('admin.AdminModu...', true)
+#1 /var/www/yii1113/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 /var/www/yii1113/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#3 /var/www/yii1113/framework/web/CWebApplication.php(276): CWebApplication->createController('admin')
+#4 /var/www/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#5 /var/www/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /var/www/rssfeed/index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/rssfeed/index.php/admin
+---
+2013/07/23 11:22:30 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/yii1113/framework/YiiBase.php:316
+Stack trace:
+#0 /var/www/yii1113/framework/YiiBase.php(196): YiiBase::import('admin.AdminModu...', true)
+#1 /var/www/yii1113/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 /var/www/yii1113/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#3 /var/www/yii1113/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/index/ind...')
+#4 /var/www/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/index/ind...')
+#5 /var/www/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /var/www/rssfeed/index.php(18): CApplication->run()
+#7 {main}
+REQUEST_URI=/rssfeed/index.php/admin
+---
+2013/07/23 11:25:16 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/var/www/yii1113/framework/YiiBase.php:421)
+Stack trace:
+#0 /var/www/rssfeed/protected/modules/admin/components/AdminCoreController.php(8): spl_autoload_call()
+#1 /var/www/yii1113/framework/YiiBase.php(421): include()
+#2 unknown(0): autoload()
+#3 /var/www/rssfeed/protected/modules/admin/controllers/IndexController.php(6): spl_autoload_call()
+#4 /var/www/yii1113/framework/web/CWebApplication.php(354): require()
+#5 /var/www/yii1113/framework/web/CWebApplication.php(338): CWebApplication->createController()
+#6 /var/www/yii1113/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#7 /var/www/yii1113/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /var/www/yii1113/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/rssfeed/index.php(18): CWebApplication->run()
+REQUEST_URI=/rssfeed/index.php/admin
