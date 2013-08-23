@@ -1,0 +1,11 @@
+application: daily-updates
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /
+  script: index.php
+
+- url: /static
+  static_dir: static
