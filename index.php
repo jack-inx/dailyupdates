@@ -8,7 +8,7 @@ else
     error_reporting(E_ALL & ~E_STRICT);
 
 // change the following paths if necessary
-$yii = dirname(__FILE__) . '/../yii1113/framework/yii.php';
+$yii = dirname(__FILE__) . '/yii1113/framework/yii.php';
 $config = dirname(__FILE__) . '/protected/config/main.php';
 $inx = dirname(__FILE__) . '/inx.php';
 // remove the following line when in production mode
